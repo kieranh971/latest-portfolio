@@ -1,3 +1,7 @@
+/* basic CSS sheet and design for now. Will update with more complex
+interactions as time goes on. For now, flexboxes allow for dynamic
+movement when the page is resized. */
+
 body {
     background-color: #575761;
 }
@@ -26,7 +30,6 @@ h1 {
     margin-left: 25px;
 }
 
-
 a{
     color: navy;
     text-decoration: underline overline white;
@@ -37,7 +40,6 @@ a{
     color: #E4FDE1;
     font-size: 20px;
 }
-
 
 #contact-me {
     color: #E4FDE1;
@@ -63,10 +65,12 @@ a{
     left: 25px;
     /* border: 5px solid blue; for testing only */
     color: black;
+    font-family: sans-serif;
 }
 
 .placeholder-images {
     padding: 20px;
+    position: relative;
     justify-content: space-evenly;
 }
 .placeholder-images img {
@@ -77,4 +81,23 @@ width: 128px;
 #my-work {
     color: #E4FDE1;
     font-size: 20px;
+}
+
+.projects ul li {
+    display: inline-block;
+    position: relative;
+    /* border: 3px solid black; */
+}
+
+.projects img {
+    height: 128px;
+    width: 128px;
+}
+
+.bottom-left-ph {
+    position: absolute;
+    /* border: 5px solid blue; for testing only */
+    color: black;
+    font-family: sans-serif;
+    bottom: 4px;
 }

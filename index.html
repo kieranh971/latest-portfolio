@@ -8,14 +8,12 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <!-- WHEN I load their portfolio -->
-<!-- THEN I am presented with the developer's name
-    a recent photo or avatar,
-    links to sections about them,
-    their work,
-    and how to contact them -->
+
+    <!-- Last criteria: images on click redirect to project -->
 
     <div class="header">
+        <!-- This section includes name, avatar, and links to each
+        section: about me, my work, and contact info -->
         <h1>Kieran Harris</h1>
         <div>
             <ul>
@@ -30,8 +28,6 @@
                 </li>
             </ul>
         </div>
-    </div>
-        <div class="content">
             <div id="about-me" class="about-me">
                 <h2>About Me</h2>
                 <p>My name is Kieran and I am currently working towards becoming a software developer.
@@ -40,24 +36,46 @@
             </div>
             
             <div id="my-work" class="my-work">
+                <!-- This section incldues my work with captions
+                over each item. Will add onto as I develop more for portfolio. -->
                 <h2>My Work</h2>
-                
+
                 <div class="main-image">
+                    <!-- Kept this section separate for first item
+                    Section is significantly larger than the rest of
+                    my placeholders. -->
                     <img src="assets/images/y9DpT.jpg"
                      alt="placeholder for project" />
                     <div class="bottom-left">Refactoring Project</div>
                 </div>
 
-                <div class = "placeholder-images">
-                    <img src="assets/images/y9DpT.jpg"
-                    alt="placeholder for project" />
-                    <img src="assets/images/y9DpT.jpg"
-                    alt="placeholder for project" />
-                    <img src="assets/images/y9DpT.jpg"
-                    alt="placeholder for project" />
-                    <img src="assets/images/y9DpT.jpg"
-                    alt="placeholder for project" />
+                <div class="projects">
+                    <!-- Inserted placeholder images with captions.
+                    Will updated and label as needed -->
+                <ul>
+                    <li>
+                        <img src="assets/images/y9DpT.jpg"
+                        alt="placeholder for project" />
+                        <div class="bottom-left-ph">Placeholder</div>
+                    </li>
+                    <li>
+                        <img src="assets/images/y9DpT.jpg"
+                        alt="placeholder for project" />
+                        <div class="bottom-left-ph">Placeholder</div>
+                    </li>
+                    <li>
+                        <img src="assets/images/y9DpT.jpg"
+                        alt="placeholder for project" />
+                        <div class="bottom-left-ph">Placeholder</div>
+                    </li>
+                    <li>
+                        <img src="assets/images/y9DpT.jpg"
+                        alt="placeholder for project" />
+                        <div class="bottom-left-ph">Placeholder</div>
+                    </li>
+                </ul>
                 </div>
+                
             </div>
                 
             <div id="contact-me" class="contact-me">
@@ -73,19 +91,7 @@
         </div>
     </div>
 
-    <!-- the UI scrolls to the corresponding section -->
-
-    <!-- WHEN I click on the link to the section about their work -->
-<!-- THEN the UI scrolls to a section with titled images of
-    the developer's applications -->
-
-    <!-- WHEN I am presented with the developer's first application -->
-<!-- THEN that application's image should be larger in size than the others -->
-
 <!-- WHEN I click on the images of the applications -->
 <!-- THEN I am taken to that deployed application -->
-
-<!-- WHEN I resize the page or view the site on various screens and devices -->
-<!-- THEN I am presented with a responsive layout that adapts to my viewport -->
 </body>
 </html>
