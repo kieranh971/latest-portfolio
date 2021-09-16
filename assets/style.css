@@ -52,7 +52,7 @@ a{
     opacity: 0.5;
 }
 
-.main-image:hover {
+.main-image:hover { /* on hover, project you want to view is highlighted */
     opacity: 1;
 }
 
