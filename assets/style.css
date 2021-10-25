@@ -4,17 +4,18 @@ movement when the page is resized. */
 
 body {
     background-color: #575761;
+    background: radial-gradient(circle, #494b4b, #2c2d2d, #1b1c1c);
 }
 
 .header {
     padding: 10px;
     font-family: sans-serif;
-    background-color: #8ACB88;
+    background: radial-gradient(#8acb88, #41a73e, #068a02);
     display: flex;
 }
 
 h1 {
-    color:#648381;
+    color:#CCCC99;
     font-size: 40px;
 }
 
@@ -32,7 +33,6 @@ h1 {
 
 a{
     color: navy;
-    text-decoration: underline overline white;
     font-family: sans-serif;
 }
 
@@ -46,28 +46,46 @@ a{
     font-size: 20px;
 }
 
-.main-image {
+#projectContainer {
+    border: black 5px solid;
     position: relative;
-    border: 10px solid black;
-    opacity: 0.5;
 }
 
-.main-image:hover { /* on hover, project you want to view is highlighted */
-    opacity: 1;
+#project-title {
+    position: absolute;
+    display: flex;
+    bottom: 10%;
+    left: 5%;
+    font-size: 30px;
+    font-family: 'Comic Neue', cursive;
+    border: black 5px solid;
+    padding: 10px;
+    /* background: radial-gradient(#d4d20a, #d4ce46, #ebe688); */
+    background: radial-gradient(#8acb88, #41a73e, #068a02);
+    color: #CCCC99;
 }
 
-.main-image img {
-    height: 50%;
-    width: 100%;
-    display: block;
+#currentProject img {
+ height: 75%;
+ width: 75%;
+ margin: 2.5% 5%;
+ border: black 5px solid;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#currentProject img:hover {
+    transform: translateY(-2%);
 }
 
 .bottom-left { /* used to place caption on main image*/
     position: absolute;
     bottom: 25px;
-    left: 25px;
-    /* border: 5px solid blue; used this to test box for captions */
+    left: 15px;
+    border: 5px solid blue;
+    padding: 10px;
+    background-color: white;
     color: black;
+    font-size: 25px;
     font-family: sans-serif;
 }
 
@@ -75,10 +93,6 @@ a{
     padding: 20px;
     position: relative;
     justify-content: space-evenly;
-}
-.placeholder-images img { /* used to change size of placeholder images*/
-height: 128px;
-width: 128px;
 }
 
 #my-work {
@@ -90,22 +104,22 @@ width: 128px;
     display: inline-block;
     position: relative;
     border: 5px solid black;
-    opacity: 0.5;
 }
 .projects ul li:hover {
-    opacity: 1;
+    transform: translateY(-2%);
 }
 
 .projects img { /* used to change size of images*/
-    height: 128px;
-    width: 128px;
+    height: 172px;
+    width: 172px;
     display: block;
 }
 
 .bottom-left-ph { /* used to move captions around on images */
     position: absolute;
     /* border: 5px solid blue; for testing only */
+    background-color: yellow;
     color: black;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     bottom: 4px;
 }

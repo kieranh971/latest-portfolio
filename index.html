@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kieran's Portfolio</title>
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- New fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -39,16 +44,11 @@
                 over each item. Will add onto as I develop more for portfolio. -->
                 <h2>My Work</h2>
 
-                <div class="main-image">
-                    <!-- Kept this section separate for first item
-                    Section is significantly larger than the rest of
-                    my placeholders. Also directly links to page of a prohect
-                    Would just need to keep adding <a href="project link"> classes to other placeholders -->
-                    <a href="https://kieranh971.github.io/refactoring-html-project/">
-                        <img src="assets/images/y9DpT.jpg"
-                        alt="placeholder for project" />
-                        <div class="bottom-left">Refactoring Project</div>
+                <div id="projectContainer">
+                    <a id="currentProject" href="https://lindamart.github.io/Interactive_FrontEnd_HeroApp/">
+                    <img src="assets/images/Hero Logos.png" alt="hero logos">
                     </a>
+                    <div id="project-title">Hero Helper App</div>
                 </div>
 
                 <div class="projects">
@@ -56,14 +56,18 @@
                     Will updated and label as needed -->
                 <ul>
                     <li>
-                        <img src="assets/images/y9DpT.jpg"
-                        alt="placeholder for project" />
-                        <div class="bottom-left-ph">Placeholder</div>
+                        <a href="file:///C:/Users/kharr/Boot%20Camp/homework/password-generator/index.html">
+                        <img src="assets/images/Password Generator.jpg"
+                        alt="password generator" />
+                        <div class="bottom-left-ph">Password Generator</div>
+                        </a>
                     </li>
                     <li>
-                        <img src="assets/images/y9DpT.jpg"
-                        alt="placeholder for project" />
-                        <div class="bottom-left-ph">Placeholder</div>
+                        <a href="https://kieranh971.github.io/Day-Planner/">
+                        <img src="assets/images/Day Planner.jpg"
+                        alt="day planner" />
+                        <div class="bottom-left-ph">Day-Planner</div>
+                        </a>
                     </li>
                     <li>
                         <img src="assets/images/y9DpT.jpg"
@@ -86,7 +90,16 @@
                     <ul>
                         <li>Number</li>
                         <li>Email</li>
-                        <li>Github</li>
+                        <li>
+                            <a href="https://github.com/kieranh971/">
+                                <div>Github</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/kieran-harris-4607b617b/">
+                                <div>LinkedIn</div>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
