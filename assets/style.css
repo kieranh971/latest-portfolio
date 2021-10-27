@@ -31,23 +31,18 @@ h1 {
 }
 
 a{
-    color: navy;
+    color: #B1D4E0;
     font-family: sans-serif;
 }
 
 #about-me {
-    color: #E4FDE1;
-    font-size: 20px;
-}
-
-#contact-me {
-    color: #E4FDE1;
+    color: #B1D4E0;
     font-size: 20px;
 }
 
 #my-work {
     /* border: green 5px solid; */
-    color: #E4FDE1;
+    color: #B1D4E0;
     font-size: 20px;
     padding-bottom: 80px;
     margin-bottom: 40px;
@@ -104,6 +99,11 @@ a{
     width: 70%;
 }
 
+figure {
+    margin: 0px;
+    position: relative;
+}
+
 .projects img {
     width: 100%;
     height: 100%;
@@ -116,29 +116,22 @@ a{
     transform: translateY(-2%);
 }
 
+.bottom-left {
+    /* border: black 5px solid; */
+    display: flex;
+    background: #145DA0;
+    color: #B1D4E0;
+    position: absolute;
+    padding: 5px;
+    bottom: 10px;
+    border-radius: 0px 10px 10px 0px;
+    font-family: sans-serif;
+}
+
 /* ----- End of small project container ----- */
 
 /* ----- Footer- Contact Info ----- */
-#phoneContact img {
-    background-color: transparent;
-    height: 40px;
-    width: 40px;
-}
-
-#emailContact img {
-    /* background-color: transparent; */
-    height: 40px;
-    width: 40px;
-}
-
-#GithubPage img {
-    /* background-color: transparent; */
-    height: 40px;
-    width: 40px;
-}
-
-#LinkedIn img {
-    /* background-color: transparent; */
+.contact-icon img {
     height: 40px;
     width: 40px;
 }
@@ -160,3 +153,28 @@ a{
     padding: 0px;
     margin: 0px;
 }
+
+/* @media screen and (max-width: 800px) {
+    .projects {
+      flex: 50%;
+      max-width: 50%;
+    }
+
+    .bottom-left {
+        flex: 50%;
+        max-width: 50%;  
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .projects {
+      flex: 100%;
+      max-width: 100%;
+    }
+
+    .bottom-left {
+        flex: 100%;
+        max-width: 100%;  
+    }
+
+  } */
