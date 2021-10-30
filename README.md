@@ -14,3 +14,5 @@ When user clicks on "Resume" they are taken to the most up to date resume of the
 When user clicks icons located under "Contact Me" they are able to call or email site owner. They are also able to view Github and LinkIn pages of site creator
 
 Live site: https://kieranh971.github.io/latest-portfolio/
+
+As of 10/29/21:
